@@ -8,7 +8,7 @@
     <description>All attached resources required for the Cloud Native Persistence Showcases</description>
     <properties>
         <!-- new Maven version management -->
-        <revision>4.1.0</revision>
+        <revision>5.0.0</revision>
         <sha1></sha1>
         <changelist></changelist>
         <!-- common properties -->
@@ -247,7 +247,7 @@
                                     <values>
                                         <postgresql.postgresqlPostgresPassword>${postgres.admin.password}</postgresql.postgresqlPostgresPassword>
                                         <postgresql.postgresqlPassword>${postgres.user.password}</postgresql.postgresqlPassword>
-                                        <postgresql.postgresqlUsername>${postgres.user.name}</postgresql.postgresqlUsername>
+                                        <postgresql.auth.username>${postgres.user.name}</postgresql.auth.username>
                                     </values>
                                 </configuration>
                             </execution>
